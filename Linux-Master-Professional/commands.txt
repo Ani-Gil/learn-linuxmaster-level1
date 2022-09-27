@@ -1,9 +1,8 @@
 passwd (✔) - 2022-09-26
 chage (✔) - 2022-09-27
-
-chmod
-chown
-chgrp
+chmod () - 2022-09-
+chown () - 2022-09-
+chgrp () - 2022-09-
 
 ps
 top
