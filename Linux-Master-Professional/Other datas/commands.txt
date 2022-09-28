@@ -1,12 +1,11 @@
 passwd (✔) - 2022-09-26
 chage (✔) - 2022-09-27
 chmod (✔) - 2022-09-28
-chown () - 2022-09-
-
-ps
-top
-nice
-renice
+chown (✔) - 2022-09-28
+ps () - 2022-09-
+top () - 2022-09-
+nice () - 2022-09-
+renice () - 2022-09-
 
 yum
 rpm
