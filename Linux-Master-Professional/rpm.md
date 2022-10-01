@@ -97,6 +97,22 @@ rpm [Option] [패키지_파일명]
     시스템에 설치된 모든 패키지에 대해서 검증을 진행한다.
     - rpm -V vsftpd<br>
     "vsftpd" 패키지에 대해 검증을 진행한다.
+    
+    <strong>2-5-1. Rebuild 모드</strong><br>
+    rpm 소스 파일인 ".src.rpm" 파일을 패키지 파일로 만드는 모드로서 "rpmbuild"라는<br>
+    명령어를 사용한다.
+    
+    2-5-2. 명령어 사용 형태<br>
+    - rpmbuild [option] [Source Package Name(Path)]
+    
+    | Option | Document |
+    |--------|----------|
+    | &#8208;&#8208;rebuild     | 소스 rpm 파일을 이용해서 rpm 패키지를 생성할 때 사용한다. |
+    
+    2-5-3. 명령어 사용 예<br>
+    - rpmbuild &#8208;&#8208;rebuild gftp-2.0.19-8.fc18.src.rpm<br>
+    root가 실행했을 경우 /root/rpmbuild 디렉터리 안에 생성한다. 만약 x86_64 기반에서<br>
+    리빌드를 진행한 경우 /root/rpmbuild/RPMS/x86_64 디렉터리에 생성된다.
 
 3. 알아둘 점<br>
     - 해당 명령어는 옵션만 해도 수 십가지이다. 그러므로 해당 표에 있는 부분들만<br>
