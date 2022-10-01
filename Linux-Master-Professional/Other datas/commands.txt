@@ -8,58 +8,57 @@ nice (✔) - 2022-10-01
 renice (✔) - 2022-10-01
 yum (✔) - 2022-10-01
 rpm (✔) - 2022-10-01
+last () - 2022-10-0
+lastlog () - 2022-10-0
+lastb () - 2022-10-0
 
-last
-lastlog
-lastb
+usermod () - 2022-10-0
+useradd () - 2022-10-0
 
-usermod
-useradd
+fsck () - 2022-10-0
+mount () - 2022-10-
 
-fsck
-mount
+usrquota () - 2022-10-0
+edquota () - 2022-10-0
+quotacheck () - 2022-10-0
 
-usrquota
-edquota
-quotacheck
+make () - 2022-10-0
+gcc () - 2022-10-0
+ldd () - 2022-10-0
 
-make
-gcc
-ldd
+modprobe () - 2022-10-0
+modinfo () - 2022-10-0
+lsmod () - 2022-10-0
+depmod () - 2022-10-0
 
-modprobe
-modinfo
-lsmod
-depmod
+mdadm () - 2022-10-0
+lvm () - 2022-10-0
+fdisk () - 2022-10-0
 
-mdadm
-lvm
-fdisk
+chattr () - 2022-10-0
+lsattr () - 2022-10-0
 
-chattr
-lsattr
+service () - 2022-10-
+systemctl () - 2022-10-
 
-service
-systemctl
+nmap () - 2022-10-
+netstat () - 2022-10-
 
-nmap
-netstat
+tar () - 2022-10-
+mkdir () - 2022-10-
+mkfs () - 2022-10-
+rsync () - 2022-10-
 
-tar
-mkdir
-mkfs
-rsync
+dd () - 2022-10-
+ssh () - 2022-10-
+blkid () - 2022-10-
 
-dd
-ssh
-blkid
+sysctl () - 2022-10-
+htpasswd () - 2022-10-
+iptables () - 2022-10-
 
-sysctl
-htpasswd
-iptables
-
-ln
-crontab
+ln () - 2022-10-
+crontab () - 2022-10-
 
 /etc/crontab 부분
 /var/log 부분
